@@ -1,0 +1,45 @@
+site_name: Wiki Techs GN
+site_url: https://Pommovore.github.io/wiki-techs-gn/
+site_description: Solutions techniques, accessoires et décors pour le grandeur nature
+
+theme:
+  name: material
+  language: fr
+  palette:
+    # Mode sombre / clair commutable
+    - scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Passer au mode sombre
+    - scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Passer au mode clair
+  features:
+    - navigation.instant        # Navigation fluide en SPA
+    - navigation.expand         # Arborescence dépliée
+    - search.suggest            # Suggestions de recherche
+    - search.highlight          # Surbrillance des mots-clés
+    - content.code.copy         # Bouton pour copier le code (Arduino/Python)
+
+markdown_extensions:
+  - admonition                  # Boîtes d'alerte (danger, astuce, note)
+  - pymdownx.details            # Boîtes pliables
+  - pymdownx.superfences:       # Blocs de code & schémas Mermaid
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+nav:
+  - Accueil: index.md
+  - Gestion:
+      - GNôle: gestion/gnole.md

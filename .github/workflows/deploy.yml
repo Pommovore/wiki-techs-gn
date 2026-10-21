@@ -1,0 +1,36 @@
+name: Deploy Wiki to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Se déclenche dès que tu pousses sur la branche principale
+  workflow_dispatch: # Permet aussi de lancer la compilation manuellement depuis GitHub
+
+permissions:
+  contents: write # Requis pour que le robot puisse pousser la version compilée sur gh-pages
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          key: ${{ runner.os }}-mkdocs-${{ hashFiles('**/requirements.txt') }}
+          path: ~/.cache/pip
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+
+      - name: Deploy to GitHub Pages
+        run: |
+          mkdocs gh-deploy --force
