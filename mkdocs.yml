@@ -1,6 +1,9 @@
 site_name: Wiki Techs GN
 site_url: https://Pommovore.github.io/wiki-techs-gn/
 site_description: Solutions techniques, accessoires et décors pour le grandeur nature
+repo_url: https://github.com/Pommovore/wiki-techs-gn
+repo_name: Pommovore/wiki-techs-gn
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -25,15 +28,21 @@ theme:
     - search.suggest            # Suggestions de recherche
     - search.highlight          # Surbrillance des mots-clés
     - content.code.copy         # Bouton pour copier le code (Arduino/Python)
+    - content.action.edit       # Lien direct pour éditer la page sur GitHub
 
 markdown_extensions:
   - admonition                  # Boîtes d'alerte (danger, astuce, note)
+  - attr_list                   # Attributs CSS/icônes sur éléments
+  - md_in_html                  # Rendu Markdown dans conteneurs HTML (grid cards)
   - pymdownx.details            # Boîtes pliables
   - pymdownx.superfences:       # Blocs de code & schémas Mermaid
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -42,4 +51,9 @@ markdown_extensions:
 nav:
   - Accueil: index.md
   - Gestion:
+      - Présentation: gestion/index.md
       - GNôle: gestion/gnole.md
+  - Électronique:
+      - Présentation: electronique/index.md
+  - Décors:
+      - Présentation: decors/index.md

@@ -73,3 +73,13 @@ Pour tester l'application ou suivre le développement :
 
 * Visitez l'instance de démonstration auto-hébergée sur [https://minimoi.mynetgear.com/gnole](https://minimoi.mynetgear.com/gnole).
 * Rejoignez le serveur Discord d'entraide et d'échange [https://discord.gg/EPNhfw7X3z](https://discord.gg/EPNhfw7X3z) pour poser vos questions, échanger des retours ou contribuer à l'évolution de la plateforme.
+
+---
+
+## 📜 Licence & Contribution
+
+* **Auteur / Mainteneur** : Pommovore
+* **Dépôt officiel** : [github.com/Pommovore/gnmanager](https://github.com/Pommovore/gnmanager)
+* **Licence logicielle** : Logiciel libre sous licence MIT.
+* **Contributions** : Les suggestions, signalements de bugs et pull requests sont les bienvenus sur le dépôt GitHub ou le serveur Discord.
+

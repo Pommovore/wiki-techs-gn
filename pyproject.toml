@@ -1,0 +1,9 @@
+[project]
+name = "wiki-techs-gn"
+version = "0.1.0"
+description = "Base de connaissances collaborative dédiée aux solutions techniques, accessoires et décors pour le grandeur nature"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material~=9.5.30",
+]

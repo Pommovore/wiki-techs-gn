@@ -1,0 +1,23 @@
+# Environnements virtuels Python
+.venv/
+venv/
+ENV/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Cache et build MkDocs
+site/
+.cache/
+
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/

@@ -1,25 +1,56 @@
-# Wiki Techs GN
+# ⚔️ Wiki Techs GN
 
-Bienvenue sur le **Wiki Techs GN**, la base de connaissances dédiée aux solutions techniques, outils numériques, accessoires et décors pour les organisateurs et passionnés de jeux de rôles grandeur nature (GN / LARP).
-
----
-
-## 🎯 Objectifs du Wiki
-
-L'organisation et la scénographie d'un grandeur nature mobilisent de nombreuses compétences : de l'électronique embarquée aux accessoires de jeu, en passant par les applications logicielles de gestion. Ce wiki a pour but de documenter, partager et pérenniser :
-
-* 🛠️ **Les outils logiciels et de gestion** : applications web, gestion des inscriptions, casting assisté, suivi logistique.
-* ⚡ **L'électronique & l'embarqué** : modules Arduino, ESP32, effets lumineux, sons d'ambiance et accessoires interactifs.
-* 🎭 **Les décors & accessoires immersifs** : techniques de fabrication, matériaux, mécanismes secrets et astuces de terrain.
-* 📦 **Retours d'expérience et guides pratiques** : tutoriels étape par étape et bonnes pratiques réutilisables.
+Base de connaissances collaborative dédiée aux solutions techniques, outils numériques, montages électroniques, accessoires et décors pour les jeux de rôles grandeur nature (GN / LARP).
 
 ---
 
-## 📚 Sommaire
+## 🎯 Explorer les Domaines
 
-### [Gestion & Organisation](gestion/gnole.md)
-* **[GNôle (GN Manager)](gestion/gnole.md)** : Plateforme web tout-en-un pour l'organisation de GN (gestion des inscriptions, casting pondéré, PAF, fiches de personnages, trombinoscope et alertes Discord).
+<div class="grid cards" markdown>
+
+-   📊 __[Gestion & Logistique](gestion/index.md)__
+
+    ---
+
+    Outils logiciels, formulaires d'inscriptions, casting semi-automatisé, suivi financier, génération de documents et trombinoscopes.
+
+    * [Présentation de la section](gestion/index.md)
+    * [Fiche projet GNôle (GN Manager)](gestion/gnole.md)
+
+    [Accéder aux outils →](gestion/index.md)
+
+-   ⚡ __[Électronique & Embarqué](electronique/index.md)__
+
+    ---
+
+    Montages Arduino, ESP32, effets lumineux programmables (LED WS2812B), capteurs d'interaction, sonorisation autonome et balises radio.
+
+    * [Présentation de la section](electronique/index.md)
+    * Schémas et codes sources embarqués
+
+    [Découvrir les montages →](electronique/index.md)
+
+-   🎭 __[Décors & Scénographie](decors/index.md)__
+
+    ---
+
+    Mécanismes d'énigmes, coffres secrets, travail de la mousse EVA, patine, fausse pierre en polystyrène extrudé et prop making.
+
+    * [Présentation de la section](decors/index.md)
+    * Astuces de fabrication et résistance terrain
+
+    [Explorer la scénographie →](decors/index.md)
+
+</div>
 
 ---
 
-> Pour contribuer à ce wiki ou proposer un nouvel article, consultez le dépôt GitHub du projet ou rejoignez les canaux de discussion communautaires.
+## 🤝 Participer et Contribuer
+
+Ce wiki vit grâce aux partages de la communauté du grandeur nature :
+
+1. **Partager une réalisation** : Vous avez conçu un outil, un montage électronique ou un accessoire remarquable ? Rédigez une fiche selon notre modèle.
+2. **Améliorer un projet** : Signalez un bug, proposez une optimisation de code ou un schéma de câblage alternatif.
+3. **Rejoindre l'entraide** : Échangez avec d'autres créateurs et bricoleurs sur les espaces communautaires.
+
+Consultez le guide de contribution sur le dépôt pour proposer votre premier article !

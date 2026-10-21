@@ -44,14 +44,22 @@ Pour assurer une maintenance aisée, une collaboration fluide et un hébergement
 │   └── workflows/
 │       └── deploy.yml          # Pipeline CI/CD de déploiement GitHub Pages
 ├── docs/                       # Fichiers sources en Markdown
-│   ├── index.md                # Page d'accueil du wiki
+│   ├── index.md                # Page d'accueil du wiki (cartes interactives)
 │   ├── gestion/                # Outils logiciels & organisation
+│   │   ├── index.md            # Présentation de la section gestion
 │   │   └── gnole.md            # Fiche détaillée du projet GNôle
-│   ├── electronique/           # (À venir) Montages, Arduino, capteurs
-│   └── decors/                 # (À venir) Mécanismes, fabrication, accessoires
+│   ├── electronique/           # Montages, Arduino, ESP32, capteurs
+│   │   └── index.md            # Présentation de la section électronique
+│   └── decors/                 # Mécanismes, fabrication, accessoires
+│       └── index.md            # Présentation de la section décors
+├── .gitignore                  # Fichiers ignorés par Git
+├── LICENSE                     # Licence CC BY-SA 4.0 (doc) et MIT (code)
 ├── mkdocs.yml                  # Fichier de configuration MkDocs
+├── pyproject.toml              # Configuration du projet et dépendances Python
+├── requirements.txt            # Dépendances versionnées pour la CI et pip
 └── README.md                   # Ce document
 ```
+
 
 ---
 
@@ -123,13 +131,14 @@ Lancez le serveur de développement MkDocs pour visualiser vos modifications en 
 
 ```bash
 # Avec uv (recommandé) :
-uv run --with mkdocs-material mkdocs serve
+uv run mkdocs serve
 
 # Ou avec un environnement virtuel classique :
 source .venv/bin/activate
-pip install mkdocs-material
+pip install -r requirements.txt
 mkdocs serve
 ```
+
 
 Ouvrez votre navigateur à l'adresse indiquée (généralement `http://127.0.0.1:8000`).
 

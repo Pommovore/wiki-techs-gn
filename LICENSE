@@ -1,0 +1,47 @@
+# Licence du Wiki Techs GN
+
+Ce projet adopte un double modèle de licence pour faciliter à la fois le partage de la documentation et la réutilisation des codes sources :
+
+## 1. Contenu textuel, guides et schémas
+
+L'ensemble des textes, schémas, guides et photographies du projet **Wiki Techs GN** est mis à disposition selon les termes de la licence **Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0)**.
+
+Consultez le texte complet de la licence : [https://creativecommons.org/licenses/by-sa/4.0/deed.fr](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
+
+En résumé, vous êtes autorisé à :
+* **Partager** — copier, distribuer et communiquer le matériel par tous moyens et sous tous formats.
+* **Adapter** — remixer, transformer et créer à partir du matériel pour toute utilisation, y compris commerciale.
+
+Selon les conditions suivantes :
+* **Attribution** — Vous devez créditer les auteurs originaux, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées.
+* **Partage dans les Mêmes Conditions** — Dans le cas où vous effectuez un remix, que vous transformez, ou créez à partir du matériel composant l'œuvre originale, vous devez diffuser l'œuvre modifiée dans les mêmes conditions.
+
+---
+
+## 2. Extraits de code, scripts et programmes embarqués
+
+Sauf mention contraire explicite au sein des fiches respectives, tous les extraits de code, bibliothèques, scripts Python et programmes de microcontrôleurs (Arduino, ESP32, Raspberry Pi) intégrés dans ce wiki sont publiés sous **Licence MIT** :
+
+```text
+MIT License
+
+Copyright (c) 2026 Wiki Techs GN Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
